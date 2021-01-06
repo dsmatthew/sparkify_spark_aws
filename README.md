@@ -40,6 +40,13 @@ HINT FOR USAGE:
 2. Run _etl.py_ to import json files from the preconfigured public S3 buckets (provided by Udacity); Edit your output path (your own S3 bucket)
 4. WARNING: Do not forget to delete your EMR & S3 Buckets afterwards (due to costs per hour).
 
+**Results**
+ETL process:
+![screenshot of etl process](readme_etlprocess.png)
+
+Results on S3 bucket:
+![screenshot of s3 bucket](readme_s3bucketresult.png)
+
 ## Project Motivation<a name="motivation"></a>
 Within this project I will create a Redshift database including the ETL pipeline in Python as preparation for further analytics. As described above, there are two types of files: song data and user-action-log data.
 All data sets are provided within the online course by Udacity (www.udacity.com).
